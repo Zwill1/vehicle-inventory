@@ -7,7 +7,7 @@ return (
         <div className='mx-auto grid grid-cols-1 lg:grid-cols-3'>
             <div className='cta-footer text-center p-5 py-10 special-offer-bg'>
                 <h2 className='text-3xl font-extrabold uppercase'>Promotional Offers</h2>
-                <p>Visit our dealership today and take advantage of our special offers, including low financing rates and cash-back incentives. Don't miss out on this opportunity to drive home in a brand new or pre-owned vehicle at an unbeatable price!</p>
+                <p>Visit our dealership today and take advantage of our special offers, including low financing rates and cash-back incentives. Dont miss out on this opportunity to drive home in a brand new or pre-owned vehicle at an unbeatable price!</p>
                 <Button link='#' cName='font-bold rounded-none' style='button-link' >View Promotional Offers</Button>
             </div>
             <div className='cta-footer text-center p-5 py-10 financing-options-bg'>
