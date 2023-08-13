@@ -1,0 +1,166 @@
+$header-bg-color: #21232e;
+$header-text-color: #fff;
+
+$primary-body-color: #fff;
+$body-text-color: #000;
+$secondary-text-color: #000;
+
+$nav-link-hover: red;
+$navigation-bg-color: #fff;
+
+$button-bg-color: #ff2841;
+$section-bg-color: #ff2841;
+
+$primary-CTA-BG: #f9f9f9;
+
+$button-table-bg-color: navy;
+
+body {
+    background-color: $primary-body-color;
+    place-items: start!important;
+    color: $body-text-color;
+}
+
+.top-header {
+    background-color: $header-bg-color;
+    color: $header-text-color;
+}
+
+.nav-bg {
+    background-color: $navigation-bg-color;
+    color: $secondary-text-color;
+}
+
+.logo-link:hover {
+    color: $secondary-text-color;
+}
+
+.nav-link {
+    color: $secondary-text-color;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: $nav-link-hover;
+}
+
+.footer-link {
+    color: $primary-body-color;
+}
+
+.footer-link:hover {
+    color: $nav-link-hover;
+}
+
+button {
+    color: $primary-body-color!important;
+    background-color: $button-bg-color!important;
+}
+
+.bannerBg {
+    background-color: $section-bg-color;
+}
+
+.bannerHeader{
+    color: $header-text-color;
+}
+
+.bottom-footer {
+    background-color: $header-bg-color!important;
+    color: $primary-body-color!important;
+}
+
+.footer-padding > * {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.special-offer-bg{
+    overflow: hidden;
+    background: #000;  /* fallback for old browsers */
+    background: linear-gradient(rgb(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("../assets/images/special-offers-CTA.jpg");  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(rgb(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("../assets/images/special-offers-CTA.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.special-offer-bg:hover{
+    overflow: hidden;
+    background: #000;  /* fallback for old browsers */
+    background: linear-gradient(rgb(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), url("../assets/images/special-offers-CTA.jpg");  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(rgb(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), url("../assets/images/special-offers-CTA.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.financing-options-bg{
+    overflow: hidden;
+    background: #000;  /* fallback for old browsers */
+    background: linear-gradient(rgb(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("../assets/images/financing-options-CTA.jpg");  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(rgb(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("../assets/images/financing-options-CTA.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.financing-options-bg:hover{
+    overflow: hidden;
+    background: #000;  /* fallback for old browsers */
+    background: linear-gradient(rgb(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), url("../assets/images/financing-options-CTA.jpg");  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(rgb(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), url("../assets/images/financing-options-CTA.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.meet-team-bg{
+    overflow: hidden;
+    background: #000;  /* fallback for old browsers */
+    background: linear-gradient(rgb(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("../assets/images/meet-the-team-CTA.jpg");  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(rgb(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("../assets/images/meet-the-team-CTA.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.meet-team-bg:hover{
+    overflow: hidden;
+    background: #000;  /* fallback for old browsers */
+    background: linear-gradient(rgb(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), url("../assets/images/meet-the-team-CTA.jpg");  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(rgb(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), url("../assets/images/meet-the-team-CTA.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cta-footer > * {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;  
+}
+
+.button-link {
+    color: $secondary-text-color;
+    font-weight: bold;
+}
+
+.button-table {
+    color: $primary-body-color;
+    background-color: $button-table-bg-color !important;
+}
+
+.button-link:hover {
+    color: $primary-body-color;
+    font-weight: bold;
+}
+
+.top-header-link {
+    color: $primary-body-color;
+    font-weight: bold;
+}
+
+.top-header-link:hover {
+    color: $nav-link-hover;
+    font-weight: bold;
+}
+
+.cta-bannerBg {
+    // background-color: $primary-CTA-BG;
+    color: $body-text-color;
+    
+}
